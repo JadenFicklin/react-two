@@ -8,8 +8,7 @@ function UserGreeting() {
       {loggedIn ? (
         <div
           style={{
-            backgroundColor: "gray",
-            color: "white",
+            color: "darkblue",
             transition: ".25s",
           }}
         >
@@ -18,7 +17,6 @@ function UserGreeting() {
       ) : (
         <div
           style={{
-            backgroundColor: "white",
             color: "gray",
             transition: ".25s",
           }}
